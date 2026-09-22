@@ -1,54 +1,100 @@
 # ATM Machine
 
-![GitHub last commit](https://img.shields.io/github/last-commit/rajyash1904/ATM-Machine.svg)![GitHub stars](https://img.shields.io/github/stars/rajyash1904/ATM-Machine.svg)
-![GitHub forks](https://img.shields.io/github/forks/rajyash1904/ATM-Machine.svg)![GitHub issues](https://img.shields.io/github/issues/rajyash1904/ATM-Machine.svg)
+## Project Description
 
-## A functional ATM project written in Java
+ATM Machine is a Java-based web application that simulates basic ATM and banking operations. The application allows users to securely log in and perform operations such as checking balance, depositing money, and withdrawing money.
 
-This project generates an automated teller machine (ATM) that stores the user's bank account, acount number, and password. With this ATM, users will be able to:
-* Make deposits
-* Withdraw money
-* View their account balance 
+## Features
 
----
-## Installation
+* User Registration and Login
+* PIN Authentication
+* Balance Check
+* Cash Withdrawal
+* Cash Deposit
+* Transaction Management
+* Account Management
+* Database Integration
+* Exception Handling
 
-### Dependencies
+## Technologies Used
 
-This project requires Java 8 or a later version to run
+* Java
+* Spring
+* Spring Boot
+* Hibernate
+* JPA
+* MySQL
+* HTML
+* CSS
+* JavaScript
 
-### User Installation
+## Backend Technologies
 
-To run the project:
-1. Clone the ATM-Machine repo to your local machine (forking first is recommended for contributors
-2. Make sure the ATM.java, Account.java, and OptionMenu.java files are stored in a single folder
-3. Use Java IDE (e.g. Eclipse ,InteliJ or NetBeans) to view these files
-4. You can also use commmand prompt (Windows) or terminal (Mac/Linux) and cd to the project directory to view them
-5. In command prompt or terminal run command : javac ATM.java
-6. After completion your folder will contain 3 .class files
-7. In command prompt/terminal run command: java ATM
+* Spring Boot for application development
+* Hibernate and JPA for database operations
+* MySQL for data storage
+* REST APIs for communication between frontend and backend
 
----
-## Visual
-After running the command in #7, you should see this interface:
+## How It Works
 
-![ATM interface](https://user-images.githubusercontent.com/77065772/218245894-caabfd9b-3fa4-4833-81ba-07a2eadaf648.PNG)
+1. User logs into the ATM application.
+2. The system verifies the user's account details.
+3. After successful login, the user can select an ATM operation.
+4. The application processes the selected transaction.
+5. Hibernate and JPA manage communication with the MySQL database.
+6. The updated account balance and transaction details are stored in the database.
 
----
-# For Developers
+## Key Concepts Used
 
-## Contribution Guidelines
+* Object-Oriented Programming (OOP)
+* Spring Boot
+* Dependency Injection
+* REST API
+* Hibernate
+* JPA
+* Entity Mapping
+* CRUD Operations
+* MySQL Database Connectivity
+* Exception Handling
 
-### Working on Issues
+## Project Structure
 
-If you see an issue that has not been raised, create an issue first, and discuss the changes you want to make with the project's lead developers
+```text
+ATM-Machine/
+├── src/
+│   ├── controller/
+│   ├── service/
+│   ├── repository/
+│   ├── entity/
+│   └── config/
+├── README.md
+└── pom.xml
+```
 
-### Writing Your First Pull Request
+## Learning Outcomes
 
-First you'll want to fork ATM-Machine on Github
+Through this project, I gained practical experience in:
 
-Then create a branch for the issue you want to work on
+* Developing Java applications using Spring Boot
+* Using Hibernate and JPA for database operations
+* Creating REST APIs
+* Implementing CRUD operations
+* Connecting applications with MySQL
+* Applying layered architecture
+* Handling exceptions and validations
+* Building basic banking transaction functionality
 
-When finished, push from your branch, then use the "Compare and Pull request" button on Github to create a pull request
+## Future Improvements
 
-Make sure to reference the issue your pull request addresses
+* Add OTP verification
+* Add transaction history
+* Add email/SMS notifications
+* Improve security with Spring Security
+* Add an admin dashboard
+* Add online transaction support
+
+## Author
+
+**Satyajit Markad**
+
+Java Developer | Web Developer
